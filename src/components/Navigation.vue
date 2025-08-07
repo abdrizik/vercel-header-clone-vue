@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky top-0 w-full bg-white text-sm border-b border-gray-100">
+  <div class="sticky top-0 w-full bg-white text-sm border-b border-gray-100 overflow-hidden">
     <div
       class="flex h-[46px] items-center px-2"
       :style="{ transform: `translateX(${navigationOffset}px)` }"
